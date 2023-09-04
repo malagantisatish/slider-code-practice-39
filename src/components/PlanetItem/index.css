@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.image-size {
+  height: 30%;
+  width: 30%;
+  margin: 10px;
+}
+
+.planet-item-details {
+  display: flex;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  color: white;
+  font-size: 28px;
+  font-family: 'Roboto';
+  padding: 10px;
+  text-align: center;
+}
+
+.description {
+  color: white;
+  font-size: 22px;
+  font-family: 'Roboto';
+  padding: 10px;
+  text-align: center;
+}
