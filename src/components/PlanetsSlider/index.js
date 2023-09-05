@@ -4,16 +4,11 @@ import PlanetItem from '../PlanetItem'
 import './index.css'
 
 const PlanetsSlider = props => {
-  const settings = {
-    dots: true,
-    slidersToShow: 1,
-    slidersToScroll: 1,
-  }
   const {planetsList} = props
   return (
-    <div data-testId="planets" className="carousel-container">
+    <div data-testid="planets" className="carousel-container">
       <h1 className="heading">PLANETS</h1>
-      <Slider {...settings}>
+      <Slider>
         {planetsList.map(each => (
           <PlanetItem key={each.id} planetDetails={each} />
         ))}

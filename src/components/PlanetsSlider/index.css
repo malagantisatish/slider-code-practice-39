@@ -2,6 +2,7 @@
 .carousel-container {
   background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
   height: 120vh;
+  padding: 40px;
 }
 
 .planet-details-list {

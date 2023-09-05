@@ -5,7 +5,7 @@ const PlanetItem = props => {
   const {planetDetails} = props
   const {id, imageUrl, description, name} = planetDetails
   return (
-    <div testid="planets" className="planet-item-details">
+    <div data-testid="planets" className="planet-item-details">
       <img src={imageUrl} alt={`planet ${name}`} className="image-size" />
       <h1 className="name">{name}</h1>
       <p className="description">{description}</p>
